@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+}
+
+body{background-color: #F5F5F7;
+width: 100vw;
+min-height: 100vh;}
+
+.navbar {
+    display: flex;             
+    justify-content: center; 
+    padding: 20px 10%;        
+    background-color: #f8f9fa;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    }
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; 
+    cursor: pointer;
+    transition: color 0.3s ease;
+    }
+.nav-links :hover{
+    color:#6366f1 ;
+}
+.header-content{
+    height: 400px;
+    background-image: url(images/e11fe0289d1ad6e93656e54c43b99f9275d82560\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.section-title{
+    text-align: center;
+    padding: 30px;
+}
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 100px auto;
+    padding: 0 20px; 
+}
+.card{
+    width: 360px;
+    height: 472px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+   
+}
+
+.card-banner{
+    height: 240px;
+    width: 360px;
+}
+.card-meta{
+    display: flex;
+    justify-content: space-between;
+}
+.card-content{
+    width: 322px;
+    height: 200px;
+    padding: 20px;
+}
+.purple{background-color: #C7B8FF;}
+.pink{background-color: #FFB8D8;}
+.blue{background-color:#B8E0FF ;}
+.green{background-color: #D4FFB8;}
+.yellow{background-color:#FFE4B8 ;}
+.orange{background-color: #FFD4B8;}
+
+.main-footer {
+    background-color: #252424;
+    color: white;
+    padding: 60px 0 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center; 
+    gap: 150px;            
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 450px;
+}
+
+
+.footer-left {
+    display: flex;
+    flex-direction: column; 
+    gap: 40px;
+    max-width: 300px;
+}
+
+.categories {
+    max-width: 250px;
+}
+
+.footer-bottom {
+    background-color: #020202;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    color: #86868B;
+}
+
+
+.techblog, .contacts, .categories {
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6366f1;}
+p,h3{
+    margin-top: 10px;
+}
+#cat{
+    color: white;
+    transition: color 0.3s ease;
+}
+#cat p :hover{color:#6366f1 ;
+
+}
+
+
